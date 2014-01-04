@@ -11,8 +11,6 @@
     "require": {
         "slim/slim": "2.4.0",
         "slim/views": "0.1.1",
-        "filp/whoops": "*",
-        "zeuxisoo/slim-whoops": "dev-master",
         "gabordemooij/redbean": "dev-master",
         "codeguy/upload": "*"
     }
