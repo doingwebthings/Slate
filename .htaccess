@@ -6,5 +6,9 @@ RewriteEngine On
 #
 # RewriteBase /
 
+#rewrite URLs & Assets
 RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^bower_components/(.*) client/dist/bower_components/$1 [L]
+RewriteRule ^styles/(.*) client/dist/styles/$1 [L]
+RewriteRule ^scripts/(.*) client/dist/scripts/$1 [L]
 RewriteRule ^ index.php [QSA,L]
