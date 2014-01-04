@@ -13,3 +13,7 @@ Edit the composer.json as needed to add php-packages.
 `/client`: this is a yeoman webapp. uses grunt and bower. the dist folder is also the template-folder for slim
 
 
+####Todo
+
+- The directory `/controllers` is strictly not for controllers, but for any custom code. What to do?
+- change `.htaccess` to do asset routing correctly
