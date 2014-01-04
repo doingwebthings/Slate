@@ -1,4 +1,9 @@
 #Slate
+Slate is is a boilerplate project to get up and running fast. 
+
+It makes use of the following frameworks:
+- slim framework [http://www.slimframework.com] along with composer
+- Yeoman web-app [https://github.com/yeoman/generator-webapp]
 
 ##Get it running
 Use composer (if not installed globally use: `curl -s https://getcomposer.org/installer | php`) to run `composer install`
