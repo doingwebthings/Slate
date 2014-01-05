@@ -1,11 +1,11 @@
 #Slate
-Slate is is a boilerplate project to get up and running fast. 
+Slate is is a boilerplate project to get up and running fast. The main idea is to have both API and client-code in the same project. To achieve this the backend and a directory containing the client-code are loosely coupled.
 
 It makes use of the following frameworks:
 - slim framework [http://www.slimframework.com] along with composer
 - Yeoman web-app [https://github.com/yeoman/generator-webapp]
  
-
+To put in plainly, Slate just combines the slim framework with a client project, which is installed via Yeoman. In this case I used the generator for generic web-apps, but you could substitute it with generators for angularjs or similar.
 
 
 
