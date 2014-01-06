@@ -1,7 +1,7 @@
 <?php
 /**
-* AppController is a generic PHP class for custom code to keep the index.php file slim
-*/
+ * AppController is a generic PHP class for custom code to keep the index.php file slim
+ */
 class AppController
 {
 
@@ -10,7 +10,7 @@ class AppController
 
     function __construct()
     {
-        $this->app =\Slim\Slim::getInstance();
+        $this->app = \Slim\Slim::getInstance();
     }
 
 
@@ -34,10 +34,10 @@ class AppController
 
     public function showFavicon()
     {
-
     }
 
-    public function jump($howfar=5)
+
+    public function jump($howfar = 5)
     {
         echo $howfar;
     }

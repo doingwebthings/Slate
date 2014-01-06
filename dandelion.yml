@@ -1,0 +1,10 @@
+scheme: ftp
+host: 178.77.86.214
+username: ftp10817286-devrolf
+password: R19771128
+path: rolf/slate
+
+exclude:
+    - .gitignore
+    - dandelion.yml
+#    - client/
