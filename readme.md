@@ -28,7 +28,7 @@ If you use the client directory with the provided files, make sure to run these 
 2. `bower install` or `bower update`
 3. `grunt` or `grunt build`
 
-##You don´t want a fancy app with a nice workflow provided by yeoman?
+##You don´t want a fancy client app with a nice workflow provided by yeoman?
 If you don´t need a dedicated client just delete the client dir and adjust the path to your templates in index.php
 `$app->config('templates.path', './client/dist');` to `$app->config('templates.path', './templates');`. Now put your template files (which can be Twig-files if you want to) in there and you´re good to go.
 
