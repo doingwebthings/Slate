@@ -15,11 +15,10 @@ Use composer (if not installed globally use: `curl -s https://getcomposer.org/in
 Edit the composer.json as needed to add php-packages.
 
 ##What goes where?
-`/index.php`: setting up the application and routes
 
-`/controllers`: you can put in here some classes for custom code to keep the file index.php slim
-
-`/client`: this is a yeoman webapp. uses grunt and bower. the dist folder is also the template-folder for slim. The directory `dist` is created by grunt when you build the app.
+1. `/index.php`: setting up the application and routes
+2. `/controllers`: you can put in here some classes for custom code to keep the file index.php slim
+3. `/client`: this is a yeoman webapp. uses grunt and bower. the dist folder is also the template-folder for slim. The directory `dist` is created by grunt when you build the app. Feel free to delete these files and use another generator  [http://yeoman.io/community-generators.html].
 
 
 If you use the client directory with the provided files, make sure to run these commands after cloning the repository:
