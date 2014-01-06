@@ -19,7 +19,7 @@ Edit the composer.json as needed to add php-packages.
 
 `/controllers`: you can put in here some classes for custom code to keep the file index.php slim
 
-`/client`: this is a yeoman webapp. uses grunt and bower. the dist folder is also the template-folder for slim
+`/client`: this is a yeoman webapp. uses grunt and bower. the dist folder is also the template-folder for slim. The directory `dist` is created by grunt when you build the app.
 
 
 If you use the client directory with the provided files, make sure to run these commands after cloning the repository:
@@ -30,8 +30,7 @@ If you use the client directory with the provided files, make sure to run these 
 
 ##You don´t want a fancy app with a nice workflow provided by yeoman?
 If you don´t need a dedicated client just delete the client dir and adjust the path to your templates in index.php
-`$app->config('templates.path', './client/dist');`. The directory `dist` is created by grunt when you build the app.
-Now you can just create a directory for your template files and use these.
+`$app->config('templates.path', './client/dist');` to `$app->config('templates.path', './templates');`. Now put your template files (which can be Twig-files if you want to) in there and you´re good to go.
 
 
 
