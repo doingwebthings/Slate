@@ -21,6 +21,11 @@ Edit the composer.json as needed to add php-packages.
 
 `/client`: this is a yeoman webapp. uses grunt and bower. the dist folder is also the template-folder for slim
 
+If you use the client dirrectory with the provided files, make sure to run these commands after cloning the repository:
+1. npm install
+2. bower install or bower update
+3. grunt or grunt build
+
 
 ####Todo
 

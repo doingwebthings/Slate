@@ -17,7 +17,8 @@ $app->get('/', 'AppController:showAppView');
 $app->get('/index.html', 'AppController:showAppView');
 $app->get('/robots.txt', 'AppController:showRobotsFile');
 
-$app->notFound(function () use ($app) {
+$app->notFound(function () use ($app)
+{
     $app->render('404.html');
 });
 
