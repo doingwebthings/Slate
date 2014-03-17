@@ -2,15 +2,12 @@
     "name": "doingwebthings/slimstarter",
     "description": "A ready-to-go package based on slimframework",
     "minimum-stability": "dev",
-    "authors": [
-        {
-            "name": "Rolf Meyer",
-            "email": "rosmeyer@gmail.com"
-        }
-    ],
+    "authors": [{
+        "name": "Rolf Meyer",
+        "email": "rosmeyer@gmail.com"
+    }],
     "require": {
-        "slim/slim": "2.4.0",
-        "slim/views": "0.1.1",
+        "slim/slim": "2.4.*",
         "gabordemooij/redbean": "dev-master",
         "codeguy/upload": "*"
     }
