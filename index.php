@@ -1,16 +1,18 @@
 <?php
 require 'vendor/autoload.php';
 
-//add custom app-controller
-require 'controllers/AppController.php';
+//add custom app-controllers
+require 'controllers/appcontroller.php';
 
 //create slim-app
 $app = new \Slim\Slim();
 
 //set config params
-$app->config('mode', 'developmant');
+$app->config('mode', 'development');
 $app->config('debug', 'true');
-$app->config('templates.path', './client/dist');
+// $app->config('templates.path', './client/dist'); // set template path to './client/dist' for yeoman-generated clients
+$app->config('templates.path', './views'); // traditional views dir
+
 
 //set up routes
 $app->get('/', 'AppController:showAppView');
